@@ -7,13 +7,13 @@
 ========
 ## Questionaire Completion Screenshot
 
-![questionaire_completion](./Zoe/Downloads/Screenshot_5.png)
+![questionaire_completion](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab00/Screenshot_5.png)
 
 ========
 
 ## Verifying SEED VM Screenshot
 
-![seed_vm](./Zoe/Downloads/Screenshot_7.png)
+![seed_vm](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab00/Screenshot_7.png)
 
 ========
 
