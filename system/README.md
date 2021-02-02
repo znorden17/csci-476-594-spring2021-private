@@ -9,7 +9,7 @@
 
 1.	So, fork() is duplicating an existing process and run the original process and the new process at the same time. exec() is when you replace an old process with something new.
 2. 
-![systems](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/system/Screenshot_8.png)
+[systems](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/system/Screenshot_8.png)
 
 **Kernal space** is where the user cannot read/write to addresses. i.e: A device driver
 
