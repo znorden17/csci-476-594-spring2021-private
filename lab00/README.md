@@ -7,7 +7,7 @@
 
 ## Questionaire Completion Screenshot
 
-![questionaire_completion](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab00/Screenshot_5.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab00/Screenshot_5.png)
 
 
 
