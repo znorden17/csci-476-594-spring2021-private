@@ -25,10 +25,10 @@ void main()
 	pid_t childPid;
 	switch(childPid = fork()){
 		case 0: /*child process*/
-			printenv();
+		//	printenv();
 			exit(0);
 		default: /* parent process*/
-			
+			printenv();			
 			exit(0);
 	}
 }
