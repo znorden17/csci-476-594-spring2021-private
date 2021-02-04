@@ -6,11 +6,11 @@ Zoe Norden | s68k193
 
 ## Task 1
 
-### 1.1 
+##### 1.1 
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_10.png)
 
-### 1.2
+##### 1.2
 
 I'm going to be honest, I don't entirely understand this. 
 
@@ -19,14 +19,15 @@ I'm going to be honest, I don't entirely understand this.
 
 ## Task 2
 
-### 2.1
+##### 2.1
 
-![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_12.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_14.png)
 
-### 2.2 
+##### 2.2 
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_13.png)
 
+The full files for 2.1 and 2.2 can be found 
 
 
 
