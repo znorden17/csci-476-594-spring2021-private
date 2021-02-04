@@ -8,22 +8,25 @@ Zoe Norden | s68k193
 
 ### 1.1 
 
-![image](PLACEHOLDER)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_10.png)
 
 ### 1.2
 
 I'm going to be honest, I don't entirely understand this. 
 
-![image](PLACEHOLDER)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_11.png)
 
 
 ## Task 2
 
 ### 2.1
 
-![image](PLACEHOLDER)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_12.png)
 
 ### 2.2 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_13.png)
+
 
 
 
