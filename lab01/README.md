@@ -27,7 +27,7 @@ I'm going to be honest, I don't entirely understand this.
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_13.png)
 
-The full files for 2.1 and 2.2 can be found 
+The full files for 2.1 and 2.2 can be found [here](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/code/myprintenv/myenv1) and [here](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/code/myprintenv/myenv2), respectively.
 
 
 
