@@ -51,6 +51,10 @@ Oh wow. Okay, this kind of looks like the myenv1 and myenv2, I wonder if it does
 
 #### 3.3
 
+The first call we did was fork() which did the parent/child thing. Where they're basically the same thing. If I'm understanding this right, the second one we did in task 3.2, I think is exec() where we replace the original process with a copy. Execute and replace. But like, execute-execute, kill-execute. 
+
+## Task 4
+
 
 
 
