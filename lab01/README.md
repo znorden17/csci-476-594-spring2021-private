@@ -85,11 +85,42 @@ Running this one was entertaing because I kept remaking the directory with diffe
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_24.png)
 
+## Task 7
 
+#### 7.1
 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_25.png)
 
+Yeah, I spelled myprog wrong and then... I didn't bother changing it. But it produced "I am not sleeping", so I'm not sure if that's right or wrong
 
+#### 7.2
 
+Will return for this task 
+
+#### 7.3
+
+What was very interesting on this one is when I changed directories it kept giving me the error about things that cannot be preloaded. Will return to the rest of the this later.
+
+## Task 8
+
+#### 8.1
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_26.png)
+
+I don't think I can all you're doing is taking advantage of cat. All cat does is lets you read a file. 
+
+#### 8.2
+
+No, they don't. Considering I can't get it to run since I have an implicit declariation, it defintely does not work. 
+
+## Task 9
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_27.png)
+
+I did not provide a screenshot, but when I sudo su the thing it still doesn't let me take ownership of the file or anything or at least run it the way I'm supposed to. I'm willing to bet that it's supposed to change things around and modify /bin/zzz but because I'm doing something wrong, it won't let me. 
+
+# Notes
+
+I'm going to be honest, 45% of this went straight over my head. 
 
 
 
