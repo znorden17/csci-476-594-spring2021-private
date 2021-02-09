@@ -33,7 +33,27 @@ I'm going to be honest - I can't really tell the difference.
 
 ##### 2.3 
 
-There are no differences between 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_17.png)
+
+There are no differences between myenv1 and myenv2. Because we used fork, we duplicated the parent process and made like an exact clone.
+
+## Task 3
+
+
+#### 3.1
+
+I'm going to be honest, I have no idea what this did because I can't actually see anything happen. And there isn't a new file (besides the executable) that I can just open up. 
+
+#### 3.2
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_18.png)
+
+Oh wow. Okay, this kind of looks like the myenv1 and myenv2, I wonder if it does the same thing as the earlier code we ran but just differently. I'm going to be honest though, I have no idea what I'm actually looking at. 
+
+#### 3.3
+
+
+
+
 
 
 
