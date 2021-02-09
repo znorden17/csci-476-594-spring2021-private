@@ -82,6 +82,7 @@ I honestly don't think I exported things correctly. I thought when I exported th
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_23.png)
 
 Running this one was entertaing because I kept remaking the directory with different names because all it did was run the linux command ls. Which lists all the stuff in a directory. Which, if I wasn't doing this this late at night, that would make total sense, but because I'm sleep deprived it didn't occur to me to actually read the code I was supposed to be copying to make this command. Not my brightest day. 
+
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_24.png)
 
 
