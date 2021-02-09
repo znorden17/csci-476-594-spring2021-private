@@ -56,7 +56,26 @@ The first call we did was fork() which did the parent/child thing. Where they're
 ## Task 4
 
 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_19.png)
 
+I have no idea what this is actually doing. Maybe showing me all the paths I can take for stuff.
+
+## Task 5
+
+#### 5.1
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_20.png)
+
+
+#### 5.2
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_21.png)
+
+#### 5.3
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_22.png)
+
+I honestly don't think I exported things correctly. 
 
 
 
