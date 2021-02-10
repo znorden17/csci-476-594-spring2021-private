@@ -73,7 +73,7 @@ I have no idea what this is actually doing. Maybe showing me all the paths I can
 
 #### 5.3
 
-![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_22.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_23.png)
 
 I honestly don't think I exported things correctly. I thought when I exported this there would be more noticeable changes with what I did, because I didn't do this correctly, (or so I believe) I did not get those obvious changes. 
 
