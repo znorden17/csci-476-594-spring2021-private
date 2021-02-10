@@ -73,7 +73,7 @@ I have no idea what this is actually doing. Maybe showing me all the paths I can
 
 #### 5.3
 
-![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_29.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_28.png)
 
 I honestly don't think I exported things correctly. I thought when I exported this there would be more noticeable changes with what I did, because I didn't do this correctly, (or so I believe) I did not get those obvious changes. 
 
@@ -89,7 +89,7 @@ Running this one was entertaing because I kept remaking the directory with diffe
 
 #### 7.1
 
-![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_26.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_25.png)
 
 Yeah, I spelled myprog wrong and then... I didn't bother changing it. But it produced "I am not sleeping", so I'm not sure if that's right or wrong
 
@@ -104,7 +104,7 @@ What was very interesting on this one is when I changed directories it kept givi
 ## Task 8
 
 #### 8.1
-![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_27.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_26.png)
 
 I don't think I can all you're doing is taking advantage of cat. All cat does is lets you read a file. 
 
@@ -114,7 +114,7 @@ No, they don't. Considering I can't get it to run since I have an implicit decla
 
 ## Task 9
 
-![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_28.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_27.png)
 
 I did not provide a screenshot, but when I sudo su the thing it still doesn't let me take ownership of the file or anything or at least run it the way I'm supposed to. I'm willing to bet that it's supposed to change things around and modify /bin/zzz but because I'm doing something wrong, it won't let me. 
 
