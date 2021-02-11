@@ -95,11 +95,19 @@ Yeah, I spelled myprog wrong and then... I didn't bother changing it. But it pro
 
 #### 7.2
 
-Will return for this task 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_29.png)
+So, normal user - TestDummy got denied. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_30.png)
+Still got denied. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab01/screenshots/Screenshot_31.png)
+
+Okay this was very interesting. Interestingly - it looks like I lost the program somewhere along the lines. Because I definitely had the program as you can see in previous screenshots. 
 
 #### 7.3
 
-What was very interesting on this one is when I changed directories it kept giving me the error about things that cannot be preloaded. Will return to the rest of the this later.
+What was very interesting on this one is when I changed directories it kept giving me the error about things that cannot be preloaded. Otherwise, as mentioned above - we completely lost the file itself, this was probably not what was supposed to happen, but who knows. I think because the child process does not inherit the LD_ environment variables, it completely wipes the program that we're trying to access. 
 
 ## Task 8
 
