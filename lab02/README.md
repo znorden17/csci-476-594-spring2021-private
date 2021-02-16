@@ -7,4 +7,5 @@ Zoe Norden | s68k193
 
 ## Task 1
 
-Just as test to see if this thing works
+In order to see if 
+
