@@ -23,22 +23,22 @@ According to the book, if I run bash it shouldn't print something out unless I d
 
 This was interesting because it doesn't consider the foo command thingy that I did in task 1 as an environment variable with the website and the HTTP viewing thing. 
 
-##### 2.2.1
+#### 2.2.1
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task2.2.1.png)
 
 basically allows us to view things. 
 
-##### 2.2.2
+#### 2.2.2
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task2.2.2.png)
 
 I think it completely removes the header from the file. Or at least inserts a blank space.
 
-###### 2.2.3
+##### 2.2.3
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task2.2.3.png)
 
 So it does the exact same thing it looks like as -v but adds a refer to a url.
 
-###### 2.2.4
+##### 2.2.4
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task2.2.4.png)
 
 Adds a header of some kind
