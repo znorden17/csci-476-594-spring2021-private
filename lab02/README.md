@@ -44,6 +44,8 @@ So it does the exact same thing it looks like as -v but adds a refer to a url.
 Adds a header of some kind
 #### 2.2.5
 
-So I think the only that can inject is technically -e because it refers you to a url or something. And I don't think a header counts as an environment variable.
+So I think the only that can inject is technically -e because it refers you to a url or something. I think -H also adds something and so -A.
+
+## Task 3
 
 
