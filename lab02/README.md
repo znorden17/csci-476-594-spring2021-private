@@ -9,3 +9,6 @@ Zoe Norden | s68k193()
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task1.1.png)
 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task1.2.png)
+
+According to the book, if I run bash it shouldn't print something out unless I declare it. So we should be good here. 
