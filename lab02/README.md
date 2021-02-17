@@ -33,16 +33,16 @@ basically allows us to view things.
 
 I think it completely removes the header from the file. Or at least inserts a blank space.
 
-##### 2.2.3
+#### 2.2.3
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task2.2.3.png)
 
 So it does the exact same thing it looks like as -v but adds a refer to a url.
 
-##### 2.2.4
+#### 2.2.4
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task2.2.4.png)
 
 Adds a header of some kind
-###### 2.2.5
+#### 2.2.5
 
 So I think the only that can inject is technically -e because it refers you to a url or something. And I don't think a header counts as an environment variable.
 
