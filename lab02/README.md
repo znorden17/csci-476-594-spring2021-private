@@ -63,7 +63,11 @@ So I think the only that can inject is technically -e because it refers you to a
 
 #### 3.5
 
-![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task3.5.png)
+Assuming that "steal" means to view them or maybe export them to a different file (which you can do by adding a > test.txt at the end and then going to cat test.txt), you should not be able to do this. I think it's because that we aren't the root ID. If we were root, we might actually be able to do this. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task3.5.png) a
+
+
 
 
 
