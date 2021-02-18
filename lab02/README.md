@@ -31,7 +31,7 @@ basically allows us to view things.
 #### 2.2.2
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task2.2.2.png)
 
-I think it completely removes the header from the file. Or at least inserts a blank space.
+Allows us to change the user-agent.
 
 #### 2.2.3
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task2.2.3.png)
