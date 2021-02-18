@@ -80,6 +80,12 @@ Skip! Not a grad student
 
 ## Task 4
 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task4.png)
+
+I think I did this correct but I can't accesss things like /etc/passwd because access is denied so I don't see how I got all this access to things. 
+
+## Task 5
+
 
 
 
