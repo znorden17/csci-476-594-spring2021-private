@@ -75,7 +75,7 @@ Assuming that "steal" means to view them or maybe export them to a different fil
 
 #### 3.6
 
-**Skip! Not a grad student**
+Skip! Not a grad student
 
 
 ## Task 4
