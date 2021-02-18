@@ -64,7 +64,7 @@ So I think the only that can inject is technically -e because it refers you to a
 
 #### 3.4
 
-![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task3.4png) 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task3.4.png) 
 
 
 #### 3.5
