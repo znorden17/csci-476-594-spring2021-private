@@ -86,8 +86,13 @@ I think I did this correct but I can't accesss things like /etc/passwd because a
 
 ## Task 5
 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task5.png)
 
+So I used nano to edit and change from /bin/bash_shellshock to bin/bash. And these were the results that I got. ALL NEGATIVES! Which I think it what I want. Hopefully. It was honestly kind of neat to see it not work on this sort of thing so it does show that curl doesn't work (or at least how we used it in this lab). 
 
+## Task 6
+
+Skip! Not a grad student
 
 
 
