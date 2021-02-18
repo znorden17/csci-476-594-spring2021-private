@@ -59,7 +59,7 @@ So I think the only that can inject is technically -e because it refers you to a
 
 #### 3.3
 
-![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task3.5.3.png) 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task3.3.png) 
 
 
 #### 3.4
@@ -69,7 +69,7 @@ So I think the only that can inject is technically -e because it refers you to a
 
 #### 3.5
 
-Assuming that "steal" means to view them or maybe export them to a different file (which you can do by adding a > test.txt at the end and then going to cat test.txt), you should not be able to do this. I think it's because that we aren't the root ID. If we were root, we probably could do this. 
+Assuming that "steal" means to view them or maybe export them to a different file (which you can do by adding a > test.txt at the end and then going to cat test.txt), you should not be able to do this. I think it's because that we aren't the root ID. If we were root, we probably could do this. The 2>&1 allows us to actually view the assignment. 
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task3.5.png) 
 
