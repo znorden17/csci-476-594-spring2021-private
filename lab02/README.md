@@ -73,6 +73,12 @@ Assuming that "steal" means to view them or maybe export them to a different fil
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab02/screenshots/2_task3.5.png) 
 
+#### 3.6
+
+**Skip! Not a grad student**
+
+
+## Task 4
 
 
 
