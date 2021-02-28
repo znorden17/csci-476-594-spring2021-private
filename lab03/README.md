@@ -22,3 +22,6 @@ The code creates a new shell that we can run commands from as if we were running
 #### 2.1
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task2.1.png)
+
+#### 2.2
+
