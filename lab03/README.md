@@ -35,5 +35,8 @@ So I got it to work, after many hours of pain and suffering. How this works is t
 Interestingly, using the following code, I just get the thing to infinitely loop. I'm not sure why that is. But here's the code thaat I used. 
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task2.2.1.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task2.2.3.png)
 
 ## Task 3
+
+I figured the easiest way to do this would be to use a for loop that went in range for the buffer from 100 to 201 (which is in essence 200). 
