@@ -25,9 +25,15 @@ The code creates a new shell that we can run commands from as if we were running
 
 #### 2.2
 
-# TODO: take screenshot of numerous segfault errors. 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task2.2.0.png)
 
-I was unable to complete this portion of the lab however. If this was working I would expect to gain access to root because we overwrite the memory of the program. Which would lead to a change of execution of path, which damages files and would give us access to private info. 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task2.2.2.png)
 
+
+So I got it to work, after many hours of pain and suffering. How this works is that I gain access to root because we overwrite the memory of the program. Which leads to a change of execution of path, which damages files and would give us access to private info. 
+
+Interestingly, using the following code, I just get the thing to infinitely loop. I'm not sure why that is. But here's the code thaat I used. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task2.2.1.png)
 
 ## Task 3
