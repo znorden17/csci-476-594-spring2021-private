@@ -25,3 +25,9 @@ The code creates a new shell that we can run commands from as if we were running
 
 #### 2.2
 
+# TODO: take screenshot of numerous segfault errors. 
+
+I was unable to complete this portion of the lab however. If this was working I would expect to gain access to root because we overwrite the memory of the program. Which would lead to a change of execution of path, which damages files and would give us access to private info. 
+
+
+## Task 3
