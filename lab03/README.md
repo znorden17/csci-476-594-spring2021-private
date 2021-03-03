@@ -54,3 +54,16 @@ I figured the easiest way to do this would be to use a for loop that went in ran
 
 I think the only thing I observed was that instead of things being zsh before it's now /bin//sh. And that's true for both of a32 and a64. 
 
+#### 4.2
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task4.2.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task4.3.png)
+
+## Task 5
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task5.1.png)
+
+Well, it segfaulted. Which was not at all surprising since I think that
+`sudo/sbin/sysctl -w kernel.randomize_va_space=2`
+is basically just turning ASLR on again. And because we don't know where the memory is... things freak out. 
+
+
