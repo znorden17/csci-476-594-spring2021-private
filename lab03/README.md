@@ -60,10 +60,47 @@ I think the only thing I observed was that instead of things being zsh before it
 
 ## Task 5
 
+
+#### 5.1
+
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task5.1.png)
 
 Well, it segfaulted. Which was not at all surprising since I think that
 `sudo/sbin/sysctl -w kernel.randomize_va_space=2`
 is basically just turning ASLR on again. And because we don't know where the memory is... things freak out. 
+
+#### 5.2
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task5.2.png)
+
+Alright. I admit this one was super fun. You were able to brute force your way around life and get into root this way. I actually really like this. I know it won't work like this in the real world, but my nice simulated one makes this super fun. 
+
+I was able to figure out that this was the root because I ran whoami and id and ta-da low and behold. I do really like that he defaulted to running this on L1, at first it made me panic that I was going to have to do this again until I saw the ./stack-L1 so it's nice that it picked the right thing to run. 
+
+I also didn't quite understand how to get out of root, my usual go to of either ^C, quit, and exit didn't work. 
+
+
+## Task 6
+
+#### 6.1
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task2.2.0.png)
+Ta-da it still works!
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task6.1.png)
+And now it doesn't, all this one does just give me a SEED shell. Which is interesting. I'm 95% positive that it's just supposed to give me an error of some sort. 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task6.2.png)
+Plus, look! It's a normal executable program. And if I try to run it, it has a heart attack and refuses to work. 
+
+
+#### 6.2
+So it looks like everything is back to normal. Of course, if I try to call  call_shellcode.c it does say that permission is denied so I think that's interesting. I think that was something I used to be able to call and reference. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task6.3.png)
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task6.4.png)
+
+
+I do not need to do the rest of the assignment as I am not a grad student and can thus skip the rest of this. 
+
 
 
