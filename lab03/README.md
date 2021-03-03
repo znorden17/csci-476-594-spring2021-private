@@ -46,3 +46,11 @@ I figured the easiest way to do this would be to use a for loop that went in ran
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task3.2.png)
 
+## Task 4
+
+#### 4.1
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab03/screenshots/task4.1.png)
+
+
+I think the only thing I observed was that instead of things being zsh before it's now /bin//sh. And that's true for both of a32 and a64. 
+
