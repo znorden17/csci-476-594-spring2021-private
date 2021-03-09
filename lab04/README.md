@@ -29,7 +29,7 @@ I refuse to tell you how long this took me. I didn't notice the $ in the code sn
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task2.2.1.png)
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task2.2.2.png)
 
-#### Task 2.3
+### Task 2.3
 
 I wasn't sure what to do for my command and looking at my screenshots I do wonder if it doesn't work because I didn't have a space between ; and D. I mean, it wasn't going to work anyway anyway, but that little lack of space does make me wonder if it's a contributing feature. I also mentioned someone named Fred, who flat out doesn't exist. I don't think the lab said to use someone who did exist, but regardless: there is a security measure against using multiple commands at once, so it wouldn't work regardless. 
 
