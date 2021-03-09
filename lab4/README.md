@@ -33,7 +33,28 @@ Anyway - snide comments aside, here's the screenshots for 2.2
 #### Task 2.3
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task2.3.1.png)
-![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task2.3.2.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task2.2.2.png)
+
+
+## Task 3
+
+#### Task 3.1
+
+Well, I've officially made Alice rich. I'm pretty sure this would also be a suspicious amount of money suddenly going to one person and if Aice was smart, she would slowly raise her salary once every 3 months or so but maybe a thousand, two thousand at a time. Not just jump it up to whatever she wanted at once. Not smart. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.1.1.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.1.2.png)
+
+
+#### Task 3.2
+
+And that's just cold-hearted and mean and lady, you are definitely getting fired. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.2.1.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.2.2.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.2.3.png)
+
+
 
 
 
