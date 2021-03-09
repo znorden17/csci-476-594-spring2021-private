@@ -48,6 +48,7 @@ I thought this command was interesting because of how... plain it was. Again, I 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.1.1.png)
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.1.2.png)
 
+Full command - ',salary=10000000 where EID=10000;#
 
 #### Task 3.2
 
@@ -57,6 +58,11 @@ And that's just cold-hearted and mean and lady, you are definitely getting fired
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.2.2.png)
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.2.3.png)
 
+
+Full command - ',salary=1 where name='Samy';#
+
+
+
 I wonder if there's a way to narrow things down further? I suppose I could directly target the employee ID of Samy. The only reason I bring it up is because it would be unfortunate if there was this receptionist or something also named Samy who also got their salary dropped to 1. Unless SQL has a priority thing? Like the first Samy we find we're going to change the password of?
 
 
@@ -65,6 +71,9 @@ I wonder if there's a way to narrow things down further? I suppose I could direc
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.3.1.png)
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.3.2.png)
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.3.3.png)
+
+Full command - ',password='197d3e6ddb2673c0a8a917d5d1ad95ebb191242' where name ='Samy';#
+
 
 Hopefully you can see the changes that we made, I tried to get the ending screenshot thing but as you can see there is a before and after for the password. I also really hope you never ask me to login because I have no idea what I set it to. I suppose I could just reset it. 
 
