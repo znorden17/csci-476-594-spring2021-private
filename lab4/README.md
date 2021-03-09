@@ -30,3 +30,13 @@ Anyway - snide comments aside, here's the screenshots for 2.2
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task2.2.1.png)
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task2.2.2.png)
 
+#### Task 2.3
+
+I've walked away, installed a punching bag, and then proceeded to bash my head into the punching bag for an hour. I feel much better and am ready to continue to contemplate bashing my computer into pieces. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task2.3.1.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task2.3.2.png)
+
+
+
+
