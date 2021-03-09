@@ -22,6 +22,6 @@ The second image won't help you too much, but I wanted to throw that in there ju
 
 #### Task 2.2
 
-<details> Just so everyone knows, I hate everything and everyone because I spent a good 20 minutes not figuring out why I couldn't get my essentially perfect curl command to work. I overlooked the itty bitty $ on the example. Which shows me that it's not from within my docker-thingy. Which sucks because I was *this* close to throwing my perfectly good desktop out the window. And then take a sludgehammer and smash whatever was left of it into tiny microscopic pieces. </details>
+<details> <summary> Unhappy ranting about task 2.2 </summary>Just so everyone knows, I hate everything and everyone because I spent a good 20 minutes not figuring out why I couldn't get my essentially perfect curl command to work. I overlooked the itty bitty $ on the example. Which shows me that it's not from within my docker-thingy. Which sucks because I was *this* close to throwing my perfectly good desktop out the window. And then take a sludgehammer and smash whatever was left of it into tiny microscopic pieces. </details>
 
 Anyway - snide comments aside, here's the screenshots for 2.2
