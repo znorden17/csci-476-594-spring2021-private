@@ -24,7 +24,7 @@ I honestly didn't think it would be this simple of a command. I thought it would
 
 ### Task 2.2
 
-I refuse to tell you how long this took me. I didn't notice the $ in the code snippet provided in the lab example so I kept trying my curls from within the container and I was so close to bashing my head into a wall. Especially since my curl command looked beautiful to me, spoiler alert: it was not beautiful. I am curious why we didn't have to mention the password part. If you look at the url provided when you log via Admin, you see it mention &password. All I had to do was mention the username=Admin '#. 
+I refuse to tell you how long this took me. I didn't notice the $ in the code snippet provided in the lab example so I kept trying my curls from within the container and I was so close to bashing my head into a wall. Especially since my curl command looked beautiful to me, spoiler alert: it was not beautiful. I am curious why we didn't have to mention the password part. If you look at the url provided when you log via Admin, you see it mention &password. All I had to do was mention the `username=Admin '#.` 
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task2.2.1.png)
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task2.2.2.png)
@@ -48,7 +48,7 @@ I thought this command was interesting because of how... plain it was. Again, I 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.1.1.png)
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.1.2.png)
 
-Full command - ',salary=10000000 where EID=10000;#
+Full command - `',salary=10000000 where EID=10000;#`
 
 ### Task 3.2
 
@@ -59,7 +59,7 @@ And that's just cold-hearted and mean and lady, you are definitely getting fired
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.2.3.png)
 
 
-Full command - ',salary=1 where name='Samy';#
+Full command -` ',salary=1 where name='Samy';#`
 
 
 
@@ -72,7 +72,7 @@ I wonder if there's a way to narrow things down further? I suppose I could direc
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.3.2.png)
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab04/screenshots/task3.3.3.png)
 
-Full command - ',password='197d3e6ddb2673c0a8a917d5d1ad95ebb191242' where name ='Samy';#
+Full command - `',password='197d3e6ddb2673c0a8a917d5d1ad95ebb191242' where name ='Samy';#`
 
 
 Hopefully you can see the changes that we made, I tried to get the ending screenshot thing but as you can see there is a before and after for the password. I also really hope you never ask me to login because I have no idea what I set it to. I suppose I could just reset it. 
