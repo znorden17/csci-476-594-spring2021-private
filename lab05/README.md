@@ -73,6 +73,12 @@ You need this line of code because if you didn't have it, you would attack yours
 
 ## Task 6
 
+For all intents and purposes - this should work. I probably missed a quotation somewhere and that's why it's not working. Or maybe I just spelled something incorrectly, but I've been staring at code that, for all intents and purposes, should absolutely work. And yet, it's frusturating that it doesn't. 
+
+What this should do is that if someone vists Samy's profile, then their stuff gets edited. So if Boby visists Samy's profile then he gets his descriptions edited and whatnot. And then if Alice visits Boby's profile, then her information also gets edited and so on and so forth. There's this giant chain of people that get infected by poor Samy over there. 
+
+That's what, again, should happen. Unfortunately for me that does not seem to be the case. Regretfully. 
+
 ```js
 
 <script type="text/javascript" id="worm">
