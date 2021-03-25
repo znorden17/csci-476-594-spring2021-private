@@ -57,7 +57,11 @@ For task 4.2 I was unable to successfully re-add Boby as a friend. To try and ac
 Once again, we will be targetting poor Boby. As you can see from the screenshot below, Boby has a very poor MySpace-esque profile page. Let's see if we can't spice things up. You know, once he visits Samy's profile.
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab05/screenshots/task5.1.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab05/screenshots/task5.1.1.png)
 
+Okay, so I had to create the variable desc which is our description variable. This is because I honestly couldn't tell if the `var name, guid, ts, token` was actually doing anything so I created the `var desc` which would directly edit the profile of poor Boby. Full code snippet is below. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab05/screenshots/task5.1.2.png)
 
 
 
