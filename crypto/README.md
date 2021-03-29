@@ -7,7 +7,7 @@ Zoe Norden | s68k193()
 
 ## Task 1
 
-**What is cryptography?**
+<span style="color:red">**What is cryptography?**</span>
 
 I suppose the official definition is as follows: 
 "Crpytography is the practice and study of techniques for securing communication and data in the presence of adversaries." - Crytography 101 - The Basics. 
@@ -20,7 +20,7 @@ One of the most interesting uses of cryptography, in my opinion, is during WWII.
 
 Crpytography solves data access restrictions. It doesn't really solve your security problems but it does limit who can access data. 
 
-** What potential issues are there in using and desigining crpytography? **
+**What potential issues are there in using and desigining crpytography?**
 
 I mean probably part of the issue with cryptography is understanding that it won't solve all your security problems and that cryptography won't solve all your security problems. A hacker can probably break into cryptography by just... typing quick. I don't really see this as an issue, per say, but because a lot of ciphers are based on some sort of math, at least from what I can tell, I can see the math behind breaking ciphers getting weird. Even still, with a lot of ciphers being based on math, there's always going to be a way to break those crypts. Eventually. 
 
