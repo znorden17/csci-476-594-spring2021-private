@@ -40,9 +40,11 @@ Today we have 7 tenants, if you will, to what defines a "good" cipher.
 Other ideas in cryptography are assymemtric and symmetric encryption. 
 
 > Asymmetric encryption is a type of encryption that uses two separates yet mathematically related keys to encrypt and decrypt data.
+
 Asymetric encryption example would be like a VPN using RSA protocols. 
 
 > Symmetric encryption is a type of encryption where only one key (a secret key) is used to both encrypt and decrypt electronic information. 
+
 Symmetric encryption would be: AES, RC4, DES, RC5, and RC6
 
 
