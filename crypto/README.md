@@ -37,8 +37,18 @@ Today we have 7 tenants, if you will, to what defines a "good" cipher.
       6) It must be portable
       7) It should not require several persont to handle or operate. 
 
-However, less specfically, the big idea for cryptography is to limit access to information. That way, your average joe can't figure out the answer, but the person you're intending to might understand what you're after. 
+Other ideas in cryptography are assymemtric and symmetric encryption. 
+
+> Asymmetric encryption is a type of encryption that uses two separates yet mathematically related keys to encrypt and decrypt data.
+
+Asymetric encryption example would be like a VPN using RSA protocols. 
+
+> Symmetric encryption is a type of encryption where only one key (a secret key) is used to both encrypt and decrypt electronic information. 
+
+Symmetric encryption would be: AES, RC4, DES, RC5, and RC6
 
 
-## Task 2
+# Task 2
+
+
 
