@@ -7,7 +7,7 @@ Zoe Norden | s68k193()
 
 ## Task 1
 
-<span style="color:red">**What is cryptography?**</span>
+<span style="color:red">What is cryptography?</span>
 
 I suppose the official definition is as follows: 
 "Crpytography is the practice and study of techniques for securing communication and data in the presence of adversaries." - Crytography 101 - The Basics. 
