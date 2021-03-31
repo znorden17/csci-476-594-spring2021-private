@@ -59,7 +59,7 @@ Sicne the first paragraph started with an `h`, I decided to start googling two l
 
 Once you kind of got a theme for what the entire encrypted essay-thing was on, you could start to rule out some things, especially once you learn later that `w` is never used. You can go through and kind of look at obscure letters like `q` and `x` and `z`. And `q` is actually used more than you think it is. Anyway - it was a lot of guess and check. Anywho - here's some screenshots of me using `tr` and confirming things. 
 
-![image](https://github.com/znorden17/csci-476-594-spring2021-private)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/crypto/crypto1.png)
 
 
 
