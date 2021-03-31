@@ -51,12 +51,15 @@ Symmetric encryption would be: AES, RC4, DES, RC5, and RC6
 # Task 2
 
 
-First of all - this was actually very interesting to do. I'm not sure if there's proper way to do this - but I used [this linke](https://www.101computing.net/frequency-analysis/). It's also kind of funny because I totally spaced that the letter `o` was a) a vowel and b) commonly used in words. I don't know how I forgot `o` was a thing but I did. 
+First of all - this was actually very interesting to do. I'm not sure if there's proper way to do this - but I used [this link](https://www.101computing.net/frequency-analysis/). It's also kind of funny because I totally spaced that the letter `o` was a) a vowel and b) commonly used in words. I don't know how I forgot `o` was a thing but I did. 
 
 I didn't really have a "strategic" way of doing this because once you get a couple the rest of this becomes much more simple. Either way, I started by pulling up the paragraphs individually because it would be an absolute nightmare sorting through the entire puzzle in one go and checking for one or two "correct" letters. So, first I figured out which letters were used "alone" as it were by tossing this thing into a frequency analysis and going from the most used letter `u` and so on. Since `p` and `h` were both the highest "used" letter and were "alone" I knew that one had to be `i` and the other had to be `a`. It was just a matter of finding out what belonged where.
 
 Sicne the first paragraph started with an `h`, I decided to start googling two letter words that begin with a/i. A little bit of Googling later and if/at were my primary suspects. However, since the chances of you guys leaving `t` as `t` in your cipher, I figured we'd go with `i` for `h` and go from there. Once I put `i` and `a` into their place I decided to go across the entire first line of encrypted nonsense and just try to make a sentence work. And from there.. things started to take off. Especially once you start to look at repeated letters. So like for words like `been` and whatnot, you have those two repeated letters `ee`. And since we guessed that `t` = `n` (which I got by flat out just Googling two letter words that start with `i` and just picking `in` by happenstance) we can assume that the four letter words that have repeating encrypted letters that are the same does not go `ttn` or `rrn` or `ssn` (because those are the only repeating things I can think of) we shove `ee` in there and then we get `b` for `been`. It was a lot of guess and check. And then, yeah, once you get the first paragraph you go the next using the same key that you had before and double check some things. 
 
 Once you kind of got a theme for what the entire encrypted essay-thing was on, you could start to rule out some things, especially once you learn later that `w` is never used. You can go through and kind of look at obscure letters like `q` and `x` and `z`. And `q` is actually used more than you think it is. Anyway - it was a lot of guess and check. Anywho - here's some screenshots of me using `tr` and confirming things. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private)
+
 
 
