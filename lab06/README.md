@@ -17,3 +17,10 @@ I'm not sure why it's giving me "hex string is too short, padding with zero byte
 Anyway - even though it's too short or whatever, I do still have encrypted things. 
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task1.4.png)
+
+
+# Task 2
+
+## Task 2.1
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task2.1.2.png)
