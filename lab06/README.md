@@ -50,7 +50,7 @@ So ecb still makes it so you can *kind of* tell what your original file is. It's
 
 I wonder if that has something to do with the detail provided in the images? I'm not sure why it would be more checkered. 
 
-If you want to view my original picture - it's linked [INSERT LINK]
+If you want to view my original picture - it's linked [here](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/ciphertexts/bmp/penguinbmp/original_penguin.bmp)
 
 # Task 3
 
