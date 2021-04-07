@@ -50,6 +50,8 @@ So ecb still makes it so you can *kind of* tell what your original file is. It's
 
 I wonder if that has something to do with the detail provided in the images? I'm not sure why it would be more checkered. 
 
+If you want to view my original picture - it's linked [INSERT LINK]
+
 # Task 3
 
 
