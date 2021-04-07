@@ -24,3 +24,32 @@ Anyway - even though it's too short or whatever, I do still have encrypted thing
 ## Task 2.1
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task2.1.2.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task2.1.3.png)
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task2.1.4.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task2.1.5.png)
+
+What's kind of neat is that you can't really see what it is in the cbc encryption but it's blatantly obvious in the ebc. 
+
+
+## Task 2.2
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task2.2.1.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task2.2.2.png)
+
+Code snippets used to encode my penguin file.
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task2.2.3.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task2.2.4.png)
+
+cat'ing things together and the image we got as a result
+
+First up - it was a little hard to find a bmp file but thankfully I found this website that does it for me. `https://image.online-convert.com/convert-to-bmp` which was an absolute live saver. I learned that if you try to harshly convert something but saving it as a different type - it says there's a corrupt header file or something, which is obviously not we want. 
+
+So ecb still makes it so you can *kind of* tell what your original file is. It's a bit better than the original_picture image that we dealt with in Task 2.1, but it's still semi noticeable. With cbc, you can again see absolutely nothing. However, instead of the weird static you see when your tv sucks in the original_picture image, in my original_penguin, I just get a green-ish checkered screen, as you can see by the image. 
+
+I wonder if that has something to do with the detail provided in the images? I'm not sure why it would be more checkered. 
+
+# Task 3
+
+
