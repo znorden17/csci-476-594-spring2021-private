@@ -54,4 +54,18 @@ If you want to view my original picture - it's linked [here](https://github.com/
 
 # Task 3
 
+## Task 3.1
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task3.1.1.png)
+
+So `five.txt` went from 5 to 16, `ten.txt` went from 10 to 16 and then `sixteen.txt` went from 16 to 32. So it looks like it pads out 16 spaces or whatever, it inreases the file size when you encipher something by 16 at a time. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task3.1.2.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task3.1.3.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task3.1.4.png)
+
+So when you decipher and don't remove the pad, then the byte size stays the same at 32/16/16, respectively. 
+
+
+
 
