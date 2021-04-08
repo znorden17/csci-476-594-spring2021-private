@@ -54,7 +54,7 @@ If you want to view my original picture - it's linked [here](https://github.com/
 
 # Task 3
 
-## Task 3.1
+## Task 3.1 -> CBC
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task3.1.1.png)
 
@@ -67,5 +67,39 @@ So `five.txt` went from 5 to 16, `ten.txt` went from 10 to 16 and then `sixteen.
 So when you decipher and don't remove the pad, then the byte size stays the same at 32/16/16, respectively. 
 
 
+## Task 3.2 -> ECB 
 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task3.1.5.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task3.1.6.png)
+
+This one has padding
+
+## Task 3.2 -> CFB
+
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task3.1.7.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task3.1.8.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task3.1.9.png)
+
+This one does not have padding because it has a streamchipher so it does not need complete padding. So you can go byte by byte. 
+
+## Task 3.2 -> OFB 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task3.1.10.png)
+
+This one does not have padding because it has a streamchipher so it does not need complete padding. So you can go byte by byte. According to the book - it might depend on what type of data is being passed through?
+
+
+# Task 4
+
+## Task 4.1
+
+ECB - Since there's only one block affected at a time, everything is decrypted individually. So while you might have an odd character here and there that might be corrupted, you could probably fill in the blank and make an easy guess as to what got corrupted using context clues. 
+
+CBC - So, because it acts as a chain, if we lose one block to corruption, then we lose all following blocks.
+
+CFB & OFB - I think they're both the same/similar. And based off of them being XOR'ed and slightly based on previous blocks, I think if you lose one block I think you lose a lot. I think you'll lose a lot. 
+
+
+## Task 4.2
 
