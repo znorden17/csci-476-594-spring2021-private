@@ -117,13 +117,13 @@ I changed the 55th byte to E9 instead of E7 and when I changed things back...
 
 So it looks like it took out a decent chunk of what I was trying to figure out and to be fair - I couldn't figure out what this said when it was in normal Greek, Idefinitely don't know what it means now. Things definitely got corrupted but I can still read a decent portion of the file.  
 
-# Task 4.4
+## Task 4.4
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task4.4.png)
 
 So - it looks like we lost the beginning of this file which I did not expect to see. 
 
-# Task 4.5
+## Task 4.5
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task4.5.png)
 
