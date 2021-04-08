@@ -103,3 +103,38 @@ CFB & OFB - I think they're both the same/similar. And based off of them being X
 
 ## Task 4.2
 
+Changed the 55th byte to go from 17 to 15. What this did was corrupt *part* of Ancient Greek work that I can't pronounce or type in - but not all of it. There were only a couple characters so this was easily decipherable. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task4.2.png)
+
+
+## Task 4.3
+
+I changed the 55th byte to E9 instead of E7 and when I changed things back... 
+
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task4.3.png)
+
+So it looks like it took out a decent chunk of what I was trying to figure out and to be fair - I couldn't figure out what this said when it was in normal Greek, Idefinitely don't know what it means now. Things definitely got corrupted but I can still read a decent portion of the file.  
+
+# Task 4.4
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task4.4.png)
+
+So - it looks like we lost the beginning of this file which I did not expect to see. 
+
+# Task 4.5
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task4.5.png)
+
+This was wild - this was basically identical to the original - EXCEPT for one singular line where it says `(Ancient Greek: ancient greek synbols I can't enter;` where it has that `;` it should be a `)`. I did not expect to this to change everything basically the same except screw up at a end parenthesis.
+
+# Task 5
+
+## Task 5.1
+
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task5.1.1.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab06/screenshots/task5.1.2.png)
+
+So if we use the same IV, we get two things that are very obviously the same but like in the second screenshot. However, if we use two different IVs, like in the first screenshot, we get two obviously different thingscl
