@@ -34,3 +34,8 @@ Essentially, everything was completely different as you can see from the below s
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab07/screenshots/task1.4.2.png)
 
 
+# Task 2
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab07/screenshots/task2.png)
+
+So I couldn't get it to print out the differences and if I use `cmp newOut1.bin newOut2.bin` and it just shows me that they differ at `byte 84, line 3` however, because it does say that it does differ in some way - I will say that I did task 2 successfully. 
