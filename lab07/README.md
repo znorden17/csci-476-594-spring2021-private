@@ -51,4 +51,4 @@ So I couldn't get it to print out the differences and if I use `cmp newOut1.bin 
 
 As you can see - that the hashes are the same but the executable does differ. In the malicious code, I changed one of the arrays from A's to B's. 
 
-![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab07/screenshots/task2.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab07/screenshots/task4.png)
