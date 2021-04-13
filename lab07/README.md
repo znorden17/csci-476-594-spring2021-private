@@ -39,3 +39,16 @@ Essentially, everything was completely different as you can see from the below s
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab07/screenshots/task2.png)
 
 So I couldn't get it to print out the differences and if I use `cmp newOut1.bin newOut2.bin` and it just shows me that they differ at `byte 84, line 3` however, because it does say that it does differ in some way - I will say that I did task 2 successfully. 
+
+# Task 3
+
+ 
+ So it's interesting to me when they have the same hash but the files differ. 
+ 
+ ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab07/screenshots/task3.png)
+
+# Task 4
+
+As you can see - that the hashes are the same but the executable does differ. In the malicious code, I changed one of the arrays from A's to B's. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/lab07/screenshots/task2.png)
