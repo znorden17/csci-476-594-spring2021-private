@@ -16,4 +16,9 @@ GCM - does have authentication. slightly slower.
 
 RSA - asymmetric - so it's slow. and if we're accessing it every day... not a good fit. Also - if you lose the private key - you lose everything.
 
-256-Hash - SHA-2 it's fast, resistant to preimage/second preimage attacks, collision resistant. 
+256-Hash - SHA-2 it's fast, resistant to preimage/second preimage attacks, collision resistant. this wouldn't be bad - but you need something on top of it. 
+
+https://www.quora.com/What-were-the-drawbacks-of-RSA-cryptosystem
+https://crypto.stackexchange.com/questions/18420/aes-gcm-disadvantage
+https://crypto.stackexchange.com/questions/85571/disadvantages-of-aes-ctr
+https://crypto.stackexchange.com/questions/43990/what-are-advantages-and-disadvantages-of-sha-256
