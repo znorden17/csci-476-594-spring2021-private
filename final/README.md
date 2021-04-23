@@ -29,7 +29,8 @@ Those citations will be listed below the entire task itself via a link and in a 
 
 ### Task 1.3
 
-```Suppose we run
+```Suppose we run``
+```
 $ nc -l 7070
 on Machine 1 (IP address is 10.0.2.6), and we then type the following command on Machine 2 (IP address is 10.0.2.7).
 
