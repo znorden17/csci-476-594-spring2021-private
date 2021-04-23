@@ -13,15 +13,17 @@ Those citations will be listed below the entire task itself via a link and in a 
 
 # Task 1
 
-## Task 1.1
+### Task 1.1
 
 `system()` is considered unsafe because it does not support code isolation. This means that an attacker could insert a new command or something malicious into the a a command input which could lead to some unwanted effects.
 
 `execve()` is considered safe because it makes developers break down their inputs into three different arguments so there is no grey area, which means there's no room to insert something malicious. 
 
-## Task 1.2
+### Task 1.2
 
+1) you should be able to run bash 2) must be able to obtain an enviornmental variable from the outside. 
 
+### Task 1.3
 
 
 # Task 2
