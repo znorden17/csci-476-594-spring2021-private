@@ -58,7 +58,19 @@ The underlying cause for XSS vulnerabilities is that HTML allows JS code to be m
 
 ```What is the difference between reflected XSS and stored XSS?```
 
+A reflected or non-persistent XSS is like when the user inputs "cute penguin photos" into Google and then Google spits out something that might say "No results for cute penguin photos". However, if the query is not reflected correctly, then it may have an XSS vulnerability. Attacks can then put JS code into the user input so when you reflect the user input back, the JS code will also be run and attach itself to the user's browser and infect the computer. 
 
+A stored XSS or persistant XSS attack is when attackers can send their data directly to a target website. That website then stores the data in a storage area. Then, if a user needs that stored data, the website sends the data and the malicious infection to the user, thus infecting the user. This creates a channel between the attacker and the users. 
+
+Chapter 11 in Computer and Internet Security was a big help in finding this answer. 
+
+### 1.7
+
+```In the Diffie-Hellman key exchange, Alice sends g^x mod p to Bob, and Bob sends g^y mod to p to Alice. How do they get a common secret?```
+
+So, Alice and Bob both pick random positive integers less than p. Alice picks x < p and bob picks y < p. And then Alice sends `A = g^x mod p` to Bob. Bob sends `B =  g^y mod p` to Alice. Alice then computes `K = B^x mod p` which is just `(g^y mod p)^x mod p`. Bob computes `B^1 = A^y mod p` which is just (g^x mod p)^y mod p. Now after doing this, they get the same secret using the rules of math - `g^(xy) mod p`. An on-looker might be able to get all the pieces but because an on-looker will never known the numbers that Bob/Alice picked (x/y) an onlooker wouldn't be able to compute g^xy.
+
+Page 532 of the Computer and Internet Security book was a major help in finding this answer. 
 
 # Task 2
 
