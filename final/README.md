@@ -139,13 +139,11 @@ I don't know why the formatting for the opening quesiton is so off, my bad. I tr
 
 ## Task 2.2
 
-```Please answer the following questions:
+```Please answer the following questions:```
 
-In your own words, what is compliance and why is compliance important?
-What is a compliance framework?```
-
-
-Please provide three (3) examples of a compliance rule/test, and briefly explain why this check could be helpful towards ensuring compliance?
+```In your own words, what is compliance and why is compliance important?```
+```What is a compliance framework?```
+```Please provide three (3) examples of a compliance rule/test, and briefly explain why this check could be helpful towards ensuring compliance?
 
 
 
