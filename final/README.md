@@ -81,9 +81,15 @@ We use hybrid encryption because public key cryptography has a high computation 
 
 ```
 (Part 1) When you run programs at the command line (e.g., ls, cat, top) or link to libraries (e.g., libc), how are these programs/libraries found?
+```
 
+The programs/libraries are found because they're connected to a public network (bin) that holds all the files that are associated with that command. 
+
+```
 (Part 2) What is a potential risk of using this approach to find programs/libraries?
 ```
+These are some very public files that can be seen and edited by anyone. As a result, if someone wanted to, you could easily inject something malicious into those files that would be run every time you typed in `ls`. As someone who never remembers what they name anything or where anything's stored, this would be very dangerous for me. 
+
 
 ### Task 1.10
 
@@ -122,7 +128,7 @@ So, given what we know, we need something that's going to be fast, reliable, and
 
 I ruled out CBC because it's block chaining, so if it does get corrupted in between encrypting and decrypting, you could lose a great deal of information. GCM is slower than CTR (even though they're virtually the same) but it GCM has authentication, which we don't want. RSA is asymmetric so while it's probably pretty secure, the information is being accessed on a daily basis (or more often). Since RSA is pretty darn slow, we cannot pick it. I decided not to go with CTR because while it does lack authentication and is fast and secure, there isn't any padding and you always use the same key/iv. I figure using the same key/iv for everything isn't a great plan. 
 
-Which is why, I decided to go with 256-Hash because it's fast and resistent to many different types of attacks. It's also used as a common password authentication encryption. I figure if it works for that, I don't see why it wouldn't work well for encrypting data like this. It's also a very fast and reliable way of encryption.
+Which is why, I decided to go with 256-Hash because it's fast and resistent to many different types of attacks. It's also used as a common password authentication encryption. I figure if it works for that, I don't see why it wouldn't work well for encrypting data like this. It's also a very fast and reliable way of encryption. However this also seems a little like overkill. If this is deemed as overkill, then my second choice will absolutely be CTR because it meets the most requirements after the SHA-2. 
 
 
 Resources: 
