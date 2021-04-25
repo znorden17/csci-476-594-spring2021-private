@@ -140,8 +140,7 @@ I don't know why the formatting for the opening quesiton is so off, my bad. I tr
 
 
 
-```
-Please answer the following questions:
+```Please answer the following questions:
 
 In your own words, what is compliance and why is compliance important?
 What is a compliance framework?
