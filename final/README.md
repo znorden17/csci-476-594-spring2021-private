@@ -64,7 +64,7 @@ A stored XSS or persistant XSS attack is when attackers can send their data dire
 
 Chapter 11 in Computer and Internet Security was a big help in finding this answer. 
 
-### 1.7
+### Task 1.7
 
 ```In the Diffie-Hellman key exchange, Alice sends g^x mod p to Bob, and Bob sends g^y mod to p to Alice. How do they get a common secret?```
 
@@ -77,7 +77,7 @@ Page 532 of the Computer and Internet Security book was a major help in finding 
 
 We use hybrid encryption because public key cryptography has a high computation cost. We don't always know how large the file that we're encrypting is going to be, so if we have a lot of data, we could have this ridiculously hard public-key computation cost that we need to make. 
 
-### 1.9
+### Task 1.9
 
 ```
 (Part 1) When you run programs at the command line (e.g., ls, cat, top) or link to libraries (e.g., libc), 
@@ -106,7 +106,7 @@ I used the book for this one.
 
 # Task 2
 
-## Task 2.1
+### Task 2.1
 
 ```Please recall our class on 4/20 with a guest visit from Ryan Darnell. During this class we discussed a real-world scenario where you needed to design a feature that used an assortment of ideas we’ve learned about from cryptography to protect project files. Your primary objectives were to (1) securely store sensitive project data, while (2) trying to minimize overhead and data loss (e.g., due to partial file corruption).```
 
@@ -137,7 +137,7 @@ Resources:
 
 I don't know why the formatting for the opening quesiton is so off, my bad. I tried to get it in one code block and I promise that I'm doing this correctly it just hates me. 
 
-## Task 2.2
+### Task 2.2
 
 ```In your own words, what is compliance and why is compliance important?```
 
