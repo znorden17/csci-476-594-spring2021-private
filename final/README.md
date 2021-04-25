@@ -101,6 +101,11 @@ I used the book for this one.
 
 ## Task 2.1
 
+```Please recall our class on 4/20 with a guest visit from Ryan Darnell. During this class we discussed a real-world scenario where you needed to design a feature that used an assortment of ideas we’ve learned about from cryptography to protect project files. Your primary objectives were to (1) securely store sensitive project data, while (2) trying to minimize overhead and data loss (e.g., due to partial file corruption).
+
+Please write a brief summary of the approach you settled on, the pros/cons, and any potential challenges or issues with your approach.
+```
+
 CBC - No, because of the block chaining and because we might access this a lot - we have a decent chunk get corrupted. 
 
 CTR - Lacks authentication, uses the same key/iv,. HOWEVER - it is fast and secure. pro/con - does not include padding which could be concerning. 
@@ -111,6 +116,14 @@ RSA - asymmetric - so it's slow. and if we're accessing it every day... not a go
 
 256-Hash - SHA-2 it's fast, resistant to preimage/second preimage attacks, collision resistant. this wouldn't be bad - but you need something on top of it. 
 
+So, given what we know, we need something that's going to be fast, reliable, and if I recall correctly from lecture, we don't want someting that requires authentication. 
+
+I ruled out CBC because it's block chaining, so if it does get corrupted in between encrypting and decrypting, you could lose a great deal of information. GCM is slower than CTR (even though they're virtually the same) but it GCM has authentication, which we don't want. RSA is asymmetric so while it's probably pretty secure, the information is being accessed on a daily basis (or more often). Since RSA is pretty darn slow, we cannot pick it. I decided not to go with CTR because while it does lack authentication and is fast and secure, there isn't any padding and you always use the same key/iv. I figure using the same key/iv for everything isn't a great plan. 
+
+Which is why, I decided to go with 256-Hash because it's fast and resistent to many different types of attacks. It's also used as a common password authentication encryption. I figure if it works for that, I don't see why it wouldn't work well for encrypting data like this. It's also a very fast and reliable way of encryption.
+
+
+Resources: 
 [RSA](https://www.quora.com/What-were-the-drawbacks-of-RSA-cryptosystem)
 [GCM](https://crypto.stackexchange.com/questions/18420/aes-gcm-disadvantage)
 [CTR](https://crypto.stackexchange.com/questions/85571/disadvantages-of-aes-ctr)
