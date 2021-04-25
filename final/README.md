@@ -141,14 +141,27 @@ I don't know why the formatting for the opening quesiton is so off, my bad. I tr
 
 ```In your own words, what is compliance and why is compliance important?```
 
+Compliance is making sure that existing policies are being followed and companies are meeting whatever security guidelines that are applicable to them. 
 
 
 ```What is a compliance framework?```
+
+Compliance framework is a bunch of rules and set structures of guidelines/rules that a company needs to follow to ensure they're meeting the regulartory requirements. 
+
+> Thank you Reese's slides
 
 
 ```Please provide three (3) examples of a compliance rule/test, and briefly explain why this check could be helpful towards ensuring compliance?```
 
 
+1) STIG-16811: The designer will ensure the application does not have cross site scripting (XSS) vulnerabilities.
 
+This check will be helpful towards ensuring compliance because it prevents the customer from having their data stored or their cookies exposed or anything else that can be maliciously injected into a website.
 
+2) STIG-217976: The Ubuntu operating system must implement address space layout randomization toprotect its memory from unauthorized code execution.
 
+This check will be helpful towards ensuring compliance because it helps prevent buffer-overflow vulnerabilities that would give the attacker root access which would be incredibly dangerous to a system. 
+
+3) STIG-217976: The audit system must be configured to audit all use of setuid and setgid programs.
+
+This check will be helpful towards ensuring compliance because it helps prevent attackers from hiding what they are doing. Logging all types of setuid and setgid programs will help monitor the system for suspicious activity. 
