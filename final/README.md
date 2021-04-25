@@ -168,3 +168,10 @@ This check will be helpful towards ensuring compliance because it helps prevent 
 
 
 # Task 3
+
+### Task 3.1
+
+This program asks the the user to enter a file name in the command line and then it will run the `bin/cat` command to display the contents of whatever file name was entered. However, using `system(command)` the user can delete any file that they want. 
+
+### Task 3.2
+
