@@ -80,7 +80,8 @@ We use hybrid encryption because public key cryptography has a high computation 
 ### 1.9
 
 ```
-(Part 1) When you run programs at the command line (e.g., ls, cat, top) or link to libraries (e.g., libc), how are these programs/libraries found?
+(Part 1) When you run programs at the command line (e.g., ls, cat, top) or link to libraries (e.g., libc), 
+how are these programs/libraries found?
 ```
 
 The programs/libraries are found because they're connected to a public network (bin) that holds all the files that are associated with that command. 
