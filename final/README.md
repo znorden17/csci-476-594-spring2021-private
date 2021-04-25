@@ -72,10 +72,30 @@ So, Alice and Bob both pick random positive integers less than p. Alice picks x 
 
 Page 532 of the Computer and Internet Security book was a major help in finding this answer. 
 
+### Task 1.8
 ```Why do we use hybrid encryption? Why don’t we simply use public key cryptography to encrypt everything?```
 
+We use hybrid encryption because public key cryptography has a high computation cost. We don't always know how large the file that we're encrypting is going to be, so if we have a lot of data, we could have this ridiculously hard public-key computation cost that we need to make. 
 
+### 1.9
 
+```
+(Part 1) When you run programs at the command line (e.g., ls, cat, top) or link to libraries (e.g., libc), how are these programs/libraries found?
+
+(Part 2) What is a potential risk of using this approach to find programs/libraries?
+```
+
+### Task 1.10
+
+```Identify at least three countermeasures to buffer-overflow attacks and briefly describe how they work.```
+
+I used the book for this one. 
+
+1) Programming language: If the language has some sort of built in check against buffer overflow, like a  boundary checking, then the developers don't have to worry about making sure their program isn't vulernable to buffer-overflow attacks. Two examples of a language with a built in check against buffer-overflows is Java and Python. 
+
+2) Operating system: The operating system is ultimately responsible for loading and executing up programs. ASLR which is Address Space Layout Randomization, is one way for the OS to help you defend against buffer overflow attacks because ASLR randomizes the memory.
+
+3) Hardware architecture: Modern CPUs have this thing called NX bit. NX bit has the ability to separate code from dat. An OS can also make pieces of memory non-executable whic hmeans it literally can't execute code using that piece of memory. This means you could technically defeat a buffer overflow by making your memory non-executable. 
 
 # Task 2
 
