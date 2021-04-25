@@ -138,9 +138,9 @@ Resources:
 I don't know why the formatting for the opening quesiton is so off, my bad. I tried to get it in one code block and I promise that I'm doing this correctly it just hates me. 
 
 
-```
-Please answer the following questions:
 
+```Please answer the following questions:```
+```
 In your own words, what is compliance and why is compliance important?
 What is a compliance framework?
 Please provide three (3) examples of a compliance rule/test, and briefly explain why this check could be helpful towards ensuring compliance?```
