@@ -175,3 +175,14 @@ This program asks the the user to enter a file name in the command line and then
 
 ### Task 3.2
 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/final/screenshots/task3.2.png)
+
+
+For this task, I decided to go with removing a file - in this case, our dummy file,`penguin.txt`. It was actually kind of interesting because it was an easily exploited thing. 
+
+
+### Task 3.3
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/final/screenshots/task3.2.png)
+
+I tried to copy things out and again tried to remove a file, in this case `penguin2.txt`. This one errored out and showed that you couldn't do the two commands together. 
