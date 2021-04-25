@@ -134,3 +134,17 @@ Resources:
 [GCM](https://crypto.stackexchange.com/questions/18420/aes-gcm-disadvantage)
 [CTR](https://crypto.stackexchange.com/questions/85571/disadvantages-of-aes-ctr)
 [SHA-256](https://crypto.stackexchange.com/questions/43990/what-are-advantages-and-disadvantages-of-sha-256)
+
+I don't know why the formatting for the opening quesiton is so off, my bad. I tried to get it in one code block and I promise that I'm doing this correctly it just hates me. 
+
+
+```Please recall our class on 4/22 with a guest visit from Reese Pearsall. During this class we learned about real-world work that aims to automate aspects of compliance.
+
+Please answer the following questions:
+
+In your own words, what is compliance and why is compliance important?
+What is a compliance framework?
+Please provide three (3) examples of a compliance rule/test, and briefly explain why this check could be helpful towards ensuring compliance?```
+
+
+
