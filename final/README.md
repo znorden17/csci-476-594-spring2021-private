@@ -108,18 +108,11 @@ I used the book for this one.
 
 ## Task 2.1
 
-```
-Please recall our class on 4/20 with a guest visit from Ryan Darnell. 
-
-During this class we discussed a real-world scenario where you needed to design a feature that used an assortment of ideas we’ve learned about from cryptography to protect 
-
-project files. Your primary objectives were to (1) securely store sensitive project data, 
-
-while (2) trying to minimize overhead and data loss (e.g., due to partial file corruption).
-
+`
+Please recall our class on 4/20 with a guest visit from Ryan Darnell. During this class we discussed a real-world scenario where you needed to design a feature that used an assortment of ideas we’ve learned about from cryptography to protect project files. Your primary objectives were to (1) securely store sensitive project data, while (2) trying to minimize overhead and data loss (e.g., due to partial file corruption).
 
 Please write a brief summary of the approach you settled on, the pros/cons, and any potential challenges or issues with your approach.
-```
+`
 
 CBC - No, because of the block chaining and because we might access this a lot - we have a decent chunk get corrupted. 
 
