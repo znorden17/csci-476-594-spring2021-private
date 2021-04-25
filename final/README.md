@@ -72,6 +72,11 @@ So, Alice and Bob both pick random positive integers less than p. Alice picks x 
 
 Page 532 of the Computer and Internet Security book was a major help in finding this answer. 
 
+```Why do we use hybrid encryption? Why don’t we simply use public key cryptography to encrypt everything?```
+
+
+
+
 # Task 2
 
 ## Task 2.1
