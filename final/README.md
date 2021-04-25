@@ -165,3 +165,6 @@ This check will be helpful towards ensuring compliance because it helps prevent 
 3) STIG-217976: The audit system must be configured to audit all use of setuid and setgid programs.
 
 This check will be helpful towards ensuring compliance because it helps prevent attackers from hiding what they are doing. Logging all types of setuid and setgid programs will help monitor the system for suspicious activity. 
+
+
+# Task 3
