@@ -8,7 +8,7 @@ Zoe Norden | s68k193()
 
 I Zoe Norden (s68k193) agree that the solutions presented below are entirely my own. If I have used resources that are not my own, I have included appropriate citations.
 
-Those citations will be listed below the entire task itself via a link and in a seperate [INSERT REFERENCE LINK HERE] page located in this directory. 
+Those citations will be listed below the entire task itself via a link (if applicable) or a basic citation. 
 
 
 # Task 1
@@ -159,13 +159,16 @@ Compliance framework is a bunch of rules and set structures of guidelines/rules 
 
 This check will be helpful towards ensuring compliance because it prevents the customer from having their data stored or their cookies exposed or anything else that can be maliciously injected into a website.
 
-2) STIG-217976: The Ubuntu operating system must implement address space layout randomization toprotect its memory from unauthorized code execution.
+2) STIG-217976 (Ubuntu 16.04): The Ubuntu operating system must implement address space layout randomization toprotect its memory from unauthorized code execution.
 
 This check will be helpful towards ensuring compliance because it helps prevent buffer-overflow vulnerabilities that would give the attacker root access which would be incredibly dangerous to a system. 
 
-3) STIG-217976: The audit system must be configured to audit all use of setuid and setgid programs.
+3) STIG-217976 (Red Hat Linux 6): The audit system must be configured to audit all use of setuid and setgid programs.
 
 This check will be helpful towards ensuring compliance because it helps prevent attackers from hiding what they are doing. Logging all types of setuid and setgid programs will help monitor the system for suspicious activity. 
+
+
+I got the STIG numbers from Reese's slides that were posted on the website. 
 
 
 # Task 3
