@@ -256,7 +256,7 @@ X being the arbitary character for whatever employee we don't want to things to 
 
 You can't really see the entire command but you would do something along these lines - 
 
-![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/final/screenshots/task4.4.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/final/screenshots/4.4.png)
 
 To be clear, 
 
