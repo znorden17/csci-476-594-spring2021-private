@@ -203,3 +203,12 @@ Right, as you can see, it echo'd things, but it didn't actually do anything extr
 > To defeat SQL injection attacks, a web application has implemented a filtering scheme on the client side: basically, on the page where users type their data, a filter is implemented using JavaScript. It removes any special character found in the data, such as apostrophes, characters for comments, and keywords reserved for SQL statements. Assume that the filtering logic does it job, and can escape/remove all the code from the data.
 
 >Is this solution able to defeat SQL injection attacks? Explain.
+
+No I don't think so. I think you could probably get like 90% of any and all SQL injection but I think a carefully crafted SQL statement could still get around the apostrophes/characters for comments/keywords. I noticed that this method doesn't get rid of any of periods. And, dependong on what you consider a special character, this might not get rid of brackets. For that reason, I think that a carefully crafted SQL statement could get around things. 
+
+### Task 4.2
+
+> The following SQL statement is sent to the database to add a new user to the database, where the content of the $name and $passwd variables are provided by the user, but the EID and Salary field are set by the system. How can a malicious employee set his/her salary to a value higher than 80000? Please demonstrate and explain your approach.
+
+```$sql = "INSERT INTO employee (Name, EID, Password, Salary)
+        VALUES ('$name', 'EID6000', '$passwd', 80000)";```
