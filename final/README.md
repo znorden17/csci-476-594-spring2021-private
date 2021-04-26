@@ -210,5 +210,6 @@ No I don't think so. I think you could probably get like 90% of any and all SQL 
 
 > The following SQL statement is sent to the database to add a new user to the database, where the content of the $name and $passwd variables are provided by the user, but the EID and Salary field are set by the system. How can a malicious employee set his/her salary to a value higher than 80000? Please demonstrate and explain your approach.
 
-```$sql = "INSERT INTO employee (Name, EID, Password, Salary)
+```
+$sql = "INSERT INTO employee (Name, EID, Password, Salary)
         VALUES ('$name', 'EID6000', '$passwd', 80000)";```
