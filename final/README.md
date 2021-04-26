@@ -219,19 +219,18 @@ $sql = "INSERT INTO employee (Name, EID, Password, Salary)
         VALUES ('$name', 'EID6000', '$passwd', 80000)";
 ```
         
-Since the user is able to add a name to the system, the malicious employee can just kind name themselves whatever they want. Let's go with Turbo (the snail, to be clear not the race car driver). Now, all the malicious employee has to do is type in a password followed by a `',` and whatever they wanted for their salary. 
+Since the user is able to add a name to the system, the malicious employee can just kind name themselves whatever they want. Let's go with Turbo (the snail, to be clear not the race car driver). Now, all the malicious employee has to do is type in a name followed by a `',` and whatever they wanted for their salary. 
 
 Ex:
 
 ```
-penguins',1234567890)#
+Turbo',1234567890)#
 ```
-
-You would do this on whatever website was susceptible to an SQL attack, somewhat similar to what we did in Lab4. 
-
-        
-        
+                
 This would set Turbo, our malicious employee's money to 1,1234,567,890. So, y'know over a billion dollars, no biggie. Instantly banking the company if no one noticies. 
+
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/final/screenshots/task3.4.png)
+
 
 ### Task 4.3
 
@@ -250,10 +249,12 @@ to click into place.
 
 X being the arbitary character for whatever employee we don't want to things to be deleted. So the attacker should do nothing to $eid or $passwd, technically. They should put it just after and then after the `SELECT` statement is run, it should run the `DELETE` statement. 
 
-The full code being - 
+You can't really see the entire command but you would do something along these lines - 
 
-```
-$sql = "SELECT * FROM employee
-        WHERE eid='$eid' and password='$passwd'; DELETE FROM employee WHERE eid != x";
-```
-Again, x being the arbitary fill in value.    
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/final/screenshots/task4.3.png)
+
+To be clear, 
+
+`Turbo', DELTE FROM employee WHERE eid!=15";#`
+
+Is the full command. 
