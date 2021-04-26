@@ -212,4 +212,34 @@ No I don't think so. I think you could probably get like 90% of any and all SQL 
 
 ```
 $sql = "INSERT INTO employee (Name, EID, Password, Salary)
-        VALUES ('$name', 'EID6000', '$passwd', 80000)";```
+        VALUES ('$name', 'EID6000', '$passwd', 80000)";
+```
+        
+Since the user is able to add a name to the system, the malicious employee can just kind name themselves whatever they want. Let's go with Turbo (the snail, to be clear not the race car driver). Now, all the malicious employee has to do is type in a password followed by a `',` and whatever they wanted for their salary. 
+
+Ex:
+
+```
+penguins',1234567890)#
+```
+
+This would set Turbo, our malicious employee's money to 1,1234,567,890. So, y'know over a billion dollars, no biggie. Instantly banking the company if no one noticies. 
+
+### Task 4.3
+
+> The following SQL statement is sent to the database, where $eid and $passwd contain data provided by the user. An attacker wants to try to get the database to run an arbitrary SQL statement. What should the attacker put inside $eid or $passwd to achieve that goal? Please demonstrate and explain your approach.
+
+```
+$sql = "SELECT * FROM employee
+        WHERE eid='$eid' and password='$passwd'";
+```
+
+The attacker should put the attack just after whatever they enter for the password. So, what we want is just to tack this on the end, we don't care what the password. We just want the entire statement `SELECT` to be "skipped" over and for 
+
+`'$passwd'; DELTE FROM employee WHERE eid != x`
+
+to click into place. 
+
+X being the arbitary character for whatever employee we don't want to things to be deleted. So the attacker should do nothing to $eid or $passwd, technically. They should put it just after and then after the `SELECT` statement is run, it should run the `DELETE` statement. 
+        
+   
