@@ -224,13 +224,18 @@ Since the user is able to add a name to the system, the malicious employee can j
 Ex:
 
 ```
-Turbo',1234567890)#
+Turbo',1234567890#
 ```
                 
 This would set Turbo, our malicious employee's money to 1,1234,567,890. So, y'know over a billion dollars, no biggie. Instantly banking the company if no one noticies. 
 
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/final/screenshots/task3.4.png)
 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/final/screenshots/task4.3.1.png)
+
+For the second image, because Turbo doesn't exist, I decided to mess with Aice's stuff using the aforementioned command. Thus giving Alice a salary of 123. 
+
+`Alice',123#`
 
 ### Task 4.3
 
@@ -243,7 +248,7 @@ $sql = "SELECT * FROM employee
 
 The attacker should put the attack just after whatever they enter for the password. So, what we want is just to tack this on the end, we don't care what the password. We just want the entire statement `SELECT` to be "skipped" over and for 
 
-`'$passwd'; DELTE FROM employee WHERE eid != x`
+`'$name'; DELTE FROM employee WHERE eid != x`
 
 to click into place. 
 
@@ -255,6 +260,6 @@ You can't really see the entire command but you would do something along these l
 
 To be clear, 
 
-`Turbo', DELTE FROM employee WHERE eid!=15";#`
+`Turbo', DELETE FROM employee WHERE eid!=15";#`
 
 Is the full command. 
