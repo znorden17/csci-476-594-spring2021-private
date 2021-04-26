@@ -53,6 +53,7 @@ ASLR stands for Address Space Layout Randomization. ASLR randomies the memory ad
 
 The underlying cause for XSS vulnerabilities is that HTML allows JS code to be mixed with data. According to the book, when the code & data show up, the HTML parser in the browser separates the code from the data but it doesn't understand what came from where - so it just executes the code. 
 
+(Look at that subtle citation to the book)
 
 ### Task 1.6
 
@@ -149,7 +150,7 @@ Compliance is making sure that existing policies are being followed and companie
 
 Compliance framework is a bunch of rules and set structures of guidelines/rules that a company needs to follow to ensure they're meeting the regulartory requirements. 
 
-> Thank you Reese's slides
+Thank you Reese's slides you were a large help to answering this question. 
 
 
 > Please provide three (3) examples of a compliance rule/test, and briefly explain why this check could be helpful towards ensuring compliance?
@@ -207,7 +208,7 @@ Right, as you can see, it echo'd things, but it didn't actually do anything extr
 
 >Is this solution able to defeat SQL injection attacks? Explain.
 
-No I don't think so. I think you could probably get like 90% of any and all SQL injection but I think a carefully crafted SQL statement could still get around the apostrophes/characters for comments/keywords. I noticed that this method doesn't get rid of any of periods. And, dependong on what you consider a special character, this might not get rid of brackets. For that reason, I think that a carefully crafted SQL statement could get around things. 
+No I don't think so. I think you could probably get like 90% of any and all SQL injection but I think a carefully crafted SQL statement could still get around the apostrophes/characters for comments/keywords. I noticed that this method doesn't get rid of any of periods. And, dependong on what you consider a special character, this might not get rid of brackets or $ signs. For that reason, I think that a carefully crafted SQL statement could get around things. 
 
 ### Task 4.2
 
@@ -226,6 +227,10 @@ Ex:
 penguins',1234567890)#
 ```
 
+You would do this on whatever website was susceptible to an SQL attack, somewhat similar to what we did in Lab4. 
+
+        
+        
 This would set Turbo, our malicious employee's money to 1,1234,567,890. So, y'know over a billion dollars, no biggie. Instantly banking the company if no one noticies. 
 
 ### Task 4.3
@@ -244,5 +249,11 @@ The attacker should put the attack just after whatever they enter for the passwo
 to click into place. 
 
 X being the arbitary character for whatever employee we don't want to things to be deleted. So the attacker should do nothing to $eid or $passwd, technically. They should put it just after and then after the `SELECT` statement is run, it should run the `DELETE` statement. 
-        
-   
+
+The full code being - 
+
+```
+$sql = "SELECT * FROM employee
+        WHERE eid='$eid' and password='$passwd'; DELETE FROM employee WHERE eid != x";
+```
+Again, x being the arbitary fill in value.    
