@@ -171,18 +171,34 @@ This check will be helpful towards ensuring compliance because it helps prevent 
 
 ### Task 3.1
 
+`Please read the source code for audit.c and, at a high level, describe what this program does and how it works.`
+
+
 This program asks the the user to enter a file name in the command line and then it will run the `bin/cat` command to display the contents of whatever file name was entered. However, using `system(command)` the user can delete any file that they want. 
 
 ### Task 3.2
 
+`With our understanding of audit.c from the previous task, please demonstrate how it can be exploited to run an arbitrary command with elevated privileges.`
+`For your demonstration, you’ll need to compile audit.c and make the resulting executable a privileged Set-UID program.`
+
 ![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/final/screenshots/task3.2.png)
 
 
-For this task, I decided to go with removing a file - in this case, our dummy file,`penguin.txt`. It was actually kind of interesting because it was an easily exploited thing. 
-
+Right - so using the `system()` I was able to gain access to root by adding that tiny extra command `;/bin/sh` While not demonstrated, you could also use `system()` to delete a file of your choice using tha a similar command. While this would not grant you root access, you could delete any file that you wanted. 
 
 ### Task 3.3
 
-![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/final/screenshots/task3.2.png)
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/final/screenshots/task3.3.png)
 
-I tried to copy things out and again tried to remove a file, in this case `penguin2.txt`. This one errored out and showed that you couldn't do the two commands together. 
+![image](https://github.com/znorden17/csci-476-594-spring2021-private/blob/main/final/screenshots/task3.3.1.png)
+
+
+Right, as you can see, it echo'd things, but it didn't actually do anything extra. And then if we follow the same idea that we did before and try the same idea - it says that whatever file didn't exist, thus circumvented. 
+
+# Task 4
+
+### Task 4.1
+
+> To defeat SQL injection attacks, a web application has implemented a filtering scheme on the client side: basically, on the page where users type their data, a filter is implemented using JavaScript. It removes any special character found in the data, such as apostrophes, characters for comments, and keywords reserved for SQL statements. Assume that the filtering logic does it job, and can escape/remove all the code from the data.
+
+>Is this solution able to defeat SQL injection attacks? Explain.
