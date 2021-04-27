@@ -137,6 +137,9 @@ Resources:
 [CTR](https://crypto.stackexchange.com/questions/85571/disadvantages-of-aes-ctr)
 [SHA-256](https://crypto.stackexchange.com/questions/43990/what-are-advantages-and-disadvantages-of-sha-256)
 
+
+In addition to those resources, I also used the slides that were given in class that talk about some of the types of encryption and also what I discussed with my group that I took notes on. I don't really remember all their names but I think Colton Weedling and Zacharius... something was in my group. I'm sorry I don't have more. 
+
 I don't know why the formatting for the opening quesiton is so off, my bad. I tried to get it in one code block and I promise that I'm doing this correctly it just hates me. 
 
 ### Task 2.2
