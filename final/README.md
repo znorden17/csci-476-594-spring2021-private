@@ -179,7 +179,7 @@ I got the STIG numbers from Reese's slides that were posted on the website.
 > Please read the source code for audit.c and, at a high level, describe what this program does and how it works.
 
 
-This program asks the the user to enter a file name in the command line and then it will run the `bin/cat` command to display the contents of whatever file name was entered. However, using `system(command)` the user can delete any file that they want. 
+This program asks the the user to enter a file name in the command line and then it will run the `bin/cat` command to display the contents of whatever file name was entered. However, using `system(command)` the user can delete any file that they want in the system with a little bit of extra code. We can also use this code to gain root access. 
 
 ### Task 3.2
 
